@@ -26,10 +26,11 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'src.App'
+    mainClass = 'com.syllab.fetes.App'
 }
 
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+

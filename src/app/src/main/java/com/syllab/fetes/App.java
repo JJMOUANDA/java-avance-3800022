@@ -24,12 +24,12 @@ public class App {
         System.out.println(aujourdhui);
         System.out.println(apresDemain);
 
-        /* Formatage
+        /* Formatage*/
         System.out.println(noel.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT)));
         System.out.println(noel.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)));
         System.out.println(noel.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG)));
         System.out.println(noel.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
-        */
+        
 
         /* Lecture
         var printemps = LocalDate.parse(
